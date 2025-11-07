@@ -1,120 +1,115 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Лев и Георгий — Синергия Технологий и Стратегии</title>
-    <meta name="description" content="Превращаем сложные идеи в успешные digital-продукты. Лев — архитектор решений. Георгий — двигатель роста." />
-    <meta property="og:title" content="Синергия Технологий и Стратегии" />
-    <meta property="og:description" content="Превращаем сложные идеи в успешные digital-продукты." />
-    <meta property="og:type" content="website" />
-    <meta name="theme-color" content="#0F172A" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="site-header">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Лев и Георгий — Синергия Технологий и Стратегии</title>
+  <meta name="description"
+    content="Превращаем сложные идеи в успешные digital-продукты. Лев — архитектор решений. Георгий — двигатель роста." />
+  <meta property="og:title" content="Синергия Технологий и Стратегии" />
+  <meta property="og:description" content="Превращаем сложные идеи в успешные digital-продукты." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0F172A" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div data-include="header" data-active="about"></div>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="container hero__content">
+        <h1 class="hero__title">Синергия Технологий и Стратегии</h1>
+        <p class="hero__subtitle">Превращаем сложные идеи в успешные digital-продукты.</p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary">Начните проект</a>
+          <a href="skills.html" class="btn btn--ghost">Детальнее о навыках</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Наша Сила -->
+    <section class="strength" id="about" aria-labelledby="strength-title">
       <div class="container">
-        <div class="brand">
-          <div class="logo" aria-hidden="true">LG</div>
-          <span class="brand-name">Лев и Георгий</span>
-        </div>
-        <nav class="nav" aria-label="Основная навигация">
-          <a href="#about">Наша сила</a>
-          <a href="#skills">Навыки</a>
-          <a class="cta" href="#contact">Начать проект</a>
-        </nav>
-      </div>
-    </header>
-
-    <main>
-      <!-- Hero -->
-      <section class="hero" id="hero">
-        <div class="container hero__content">
-          <h1 class="hero__title">Синергия Технологий и Стратегии</h1>
-          <p class="hero__subtitle">Превращаем сложные идеи в успешные digital-продукты.</p>
-          <div class="hero__actions">
-            <a href="#contact" class="btn btn--primary">Начните проект</a>
-            <a href="#about" class="btn btn--ghost">Узнать больше</a>
-          </div>
-        </div>
-      </section>
-
-      <!-- Наша Сила -->
-      <section class="strength" id="about" aria-labelledby="strength-title">
-        <div class="container">
-          <h2 id="strength-title" class="section-title">Наша сила</h2>
-          <div class="strength__grid">
-            <article class="card person">
-              <img class="person__avatar" src="assets/lev-avatar.jpg" alt="Лев — Архитектор решений" />
-              <div class="person__body">
-                <h3 class="person__name">Лев<span class="person__role"> — Архитектор решений</span></h3>
-                <p class="person__text">Отвечает за всю технологическую и логистическую основу. Превращает бизнес-задачи в элегантный код и отлаженные процессы.</p>
-              </div>
-            </article>
-            <article class="card person">
-              <img class="person__avatar" src="assets/georgiy-avatar.jpg" alt="Георгий — Двигатель роста" />
-              <div class="person__body">
-                <h3 class="person__name">Георгий<span class="person__role"> — Двигатель роста</span></h3>
-                <p class="person__text">Отвечает за маркетинг, PR и B2B-взаимодействия. Строит мосты между продуктом, клиентами и рынком.</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- Навыки -->
-      <section class="skills" id="skills" aria-labelledby="skills-title">
-        <div class="container">
-          <h2 id="skills-title" class="section-title">Наши навыки</h2>
-          <div class="skills__grid">
-            <div class="skills__column card">
-              <h3 class="skills__name">Лев</h3>
-              <ul class="skills__list">
-                <li>Программирование</li>
-                <li>Data Science</li>
-                <li>Системная архитектура</li>
-                <li>Автоматизация</li>
-              </ul>
+        <h2 id="strength-title" class="section-title">Наша сила</h2>
+        <div class="strength__grid">
+          <article class="card person">
+            <img class="person__avatar" src="assets/lev-avatar.jpg" alt="Лев — Архитектор решений" />
+            <div class="person__body">
+              <h3 class="person__name">Лев<span class="person__role"> — Архитектор решений</span></h3>
+              <p class="person__text">Отвечает за всю технологическую и логистическую основу. Превращает бизнес-задачи в
+                элегантный код и отлаженные процессы.</p>
             </div>
-            <div class="skills__column card">
-              <h3 class="skills__name">Георгий</h3>
-              <ul class="skills__list">
-                <li>Маркетинговая стратегия</li>
-                <li>B2B-продажи</li>
-                <li>Публичные выступления</li>
-                <li>Бренд-менеджмент</li>
-              </ul>
+          </article>
+          <article class="card person">
+            <img class="person__avatar" src="assets/georgiy-avatar.jpg" alt="Георгий — Двигатель роста" />
+            <div class="person__body">
+              <h3 class="person__name">Георгий<span class="person__role"> — Двигатель роста</span></h3>
+              <p class="person__text">Отвечает за маркетинг, PR и B2B-взаимодействия. Строит мосты между продуктом,
+                клиентами и рынком.</p>
             </div>
-          </div>
+          </article>
         </div>
-      </section>
-
-      <!-- Контакты / CTA -->
-      <section class="contact" id="contact" aria-labelledby="contact-title">
-        <div class="container contact__content">
-          <h2 id="contact-title" class="section-title">Начните свой проект с нами</h2>
-          <div class="contact__actions">
-            <a class="btn btn--primary" href="https://t.me/Linsaym397" target="_blank" rel="noopener">Обсудить проект с Львом</a>
-            <a class="btn btn--secondary" href="https://t.me/notsaintgeorge" target="_blank" rel="noopener">Связаться с Георгием</a>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container footer__content">
-        <span>© <span id="year"></span> Лев и Георгий</span>
-        <span class="muted">Профессионально. Технологично. По‑человечески.</span>
       </div>
-    </footer>
+    </section>
 
-    <script>
-      // Update year without external deps
-      document.getElementById('year').textContent = new Date().getFullYear().toString();
-    </script>
-  </body>
-  </html>
+    <!-- Навыки -->
+    <section class="skills" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 id="skills-title" class="section-title">Наши навыки</h2>
+        <div class="skills__grid">
+          <div class="skills__column card">
+            <h3 class="skills__name">Лев</h3>
+            <ul class="skills__list">
+              <li>Программирование</li>
+              <li>Data Science</li>
+              <li>Системная архитектура</li>
+              <li>Автоматизация</li>
+            </ul>
+          </div>
+          <div class="skills__column card">
+            <h3 class="skills__name">Георгий</h3>
+            <ul class="skills__list">
+              <li>Маркетинговая стратегия</li>
+              <li>B2B-продажи</li>
+              <li>Публичные выступления</li>
+              <li>Бренд-менеджмент</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Контакты / CTA -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact__content">
+        <h2 id="contact-title" class="section-title">Начните свой проект с нами</h2>
+        <div class="contact__actions">
+          <a class="btn btn--primary" href="https://t.me/Linsaym397" target="_blank" rel="noopener">Обсудить проект с
+            Львом</a>
+          <a class="btn btn--secondary" href="https://t.me/notsaintgeorge" target="_blank" rel="noopener">Связаться с
+            Георгием</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
+  <footer class="site-footer">
+    <div class="container footer__content">
+      <span>© <span id="year"></span> Лев и Георгий</span>
+      <span class="muted">Профессионально. Технологично. По‑человечески.</span>
+    </div>
+  </footer>
+
+  <script src="scripts/include-header.js" defer></script>
+  <script>
+    // Update year without external deps
+    document.getElementById('year').textContent = new Date().getFullYear().toString();
+  </script>
+</body>
+
+</html>
