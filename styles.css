@@ -603,11 +603,13 @@ body {
   }
 
   .hero__title {
-    font-size: clamp(28px, 8vw, 56px);
+    text-align: center;
+    font-size: 28px;
     margin: 0 0 12px;
   }
 
   .hero__subtitle {
+    text-align: center;
     font-size: clamp(15px, 4vw, 22px);
     margin: 0 0 24px;
   }
